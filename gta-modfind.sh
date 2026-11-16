@@ -170,7 +170,7 @@ fi
 say "Mode: $MODE | Mods to test (${#MODS[@]}): ${MODS[*]}"
 [[ $MODE == ask ]] && say "After each launch, play until the point it normally crashes, then answer."
 
-.
+
 if ! run_test; then
   say ""
   say "The game fails even with NO mods enabled, so the problem is Proton,"
